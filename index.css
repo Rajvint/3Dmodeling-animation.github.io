@@ -1,0 +1,68 @@
+.animate{
+    animation: drop 2.0s ease;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+
+.para{
+    word-break: break-all;
+    margin-top: -10%;
+} 
+.searchengine{
+    height:70px; 
+    width:500px;
+}
+.search{
+    height:70px;
+    width:200px;
+    background-color: rgb(60, 56, 78);
+}
+.navbar{
+    margin: auto;
+
+}
+.navbar p{
+    font-size:30px;
+}
+.nav2{
+    background-color: rgb(75, 76, 104);
+}
+.card:hover{
+    transform: scale(1.06);
+}
+.nav3{
+    background-color: rgb(75, 76, 104);
+}
+.work a {
+    align-items: center;
+    font-size: 30px;
+}
+.showcaseli li{
+    list-style-type:none;
+    display: inline;
+    font-size: 25px;
+}
+.footerlist a{
+    text-decoration: none;
+    color: white;
+}
+.footercr a{
+    text-decoration: none;
+    color: white;
+}
+@keyframes drop{
+    0%{
+        opacity:0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
